@@ -4,7 +4,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "node index.js",
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "",
@@ -12,7 +14,7 @@
   "description": "",
   "dependencies": {
     "jest": "^29.7.0",
-    "build": "node index.spec.js",
+    "build": "node index.js",
     "lint": "eslint ."
   },
   "devDependencies": {
